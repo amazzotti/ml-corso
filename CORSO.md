@@ -131,11 +131,11 @@ Legenda: [x] fatto, [ ] da fare.
 - [x] Identità Git personale impostata in locale
 - [x] Primo push riuscito
 - [x] Ambiente virtuale `.venv` creato sul PC aziendale
-- [ ] Estensione Python di VS Code installata e interprete `.venv` selezionato
+- [x] Estensione Python di VS Code installata e interprete `.venv` selezionato
 - [ ] Setup sul PC di casa
 
 **Moduli**
-- [ ] Modulo 0 — in corso: `modulo0/` creata, nessun esercizio ancora scritto
+- [ ] Modulo 0 — in corso. Fatto: `01_ciao.py` (print). Da fare: `02_input.py`
 - [ ] Modulo 1
 - [ ] Modulo 2
 - [ ] Modulo 3
@@ -143,7 +143,8 @@ Legenda: [x] fatto, [ ] da fare.
 - [ ] Modulo 5
 - [ ] Modulo 6
 
-**Ultima sessione: 2026-11-17.** Fatto il setup. **Prossimo passo:** selezionare l'interprete
+**Ultima sessione: 2026-11-17.** Fatto il setup e il primo esercizio. **Prossimo passo:** `modulo0/02_input.py`,
+chiedere il nome con `input()` e salutare (introduce variabili e stringhe). Vecchio prossimo passo, già svolto: selezionare l'interprete
 `.venv` in VS Code e scrivere `modulo0/01_ciao.py` (una riga con `print`), eseguirlo e
 descrivere cosa appare nel terminale.
 
