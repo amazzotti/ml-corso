@@ -1,9 +1,9 @@
-# Quaderno del corso di Machine Learning
+﻿# Quaderno del corso di Machine Learning
 
-Documento di continuità: raccoglie obiettivo, metodo, piano completo, configurazione dei PC
-e stato di avanzamento. Chi lo legge (io stesso, un tutor, un collega) deve poter capire
+Documento di continuità: raccoglie obiettivo, metodo, piano completo e stato di avanzamento.
+Chi lo legge (io stesso, un tutor, un collega) deve poter capire
 **cosa è stato fatto, cosa no e qual è il prossimo passo** senza altre informazioni.
-Si aggiorna alla fine di ogni sessione (sezione 8).
+Si aggiorna alla fine di ogni sessione (sezione 6).
 
 ---
 
@@ -84,56 +84,17 @@ ml-corso/
   modulo0/ ... modulo6/
 ```
 
-## 5. Ambienti e configurazione
-
-- **Repository:** https://github.com/amazzotti/ml-corso (account personale `amazzotti`).
-- **Branch:** `main`, con tracking su `origin/main`.
-- **PC aziendale (Windows 11, PowerShell):** Python 3.12.10 e Git installati con `winget`
-  per il solo utente. Progetto in `C:\Users\amazzotti\Documents\Progetti-personali\ml-corso`.
-  Ambiente virtuale creato in `.venv`.
-- **Identità Git:** impostata **solo a livello di repository** (mai `--global`), con nome
-  `amazzotti` e l'email personale. Verifica: `git config user.name` e `git config user.email`
-  dentro la cartella del progetto. Sul PC aziendale la configurazione globale usa credenziali
-  di lavoro: non vanno mai usate per questo repo.
-- **Login GitHub sul PC aziendale:** il browser e Git Credential Manager hanno in cache
-  l'account di lavoro, che produce un errore 403 al push. Soluzione: URL del remote con
-  utente esplicito, `git remote set-url origin https://amazzotti@github.com/amazzotti/ml-corso.git`,
-  poi `git config --local credential.gitHubAuthModes device`, poi `git push` e login da una
-  finestra in incognito con l'account personale. Non scrivere mai password o token in file o chat.
-
-## 6. Setup su un nuovo PC
-
-1. Installare Python 3.12+ (python.org, con "Add python.exe to PATH") e Git.
-2. `git clone https://github.com/amazzotti/ml-corso.git`, aprire la cartella in VS Code,
-   installare l'estensione **Python**.
-3. Dentro la cartella: `git config user.name "amazzotti"` e `git config user.email "<email personale>"`.
-4. `python -m venv .venv`, attivare con `.venv\Scripts\Activate.ps1`, poi `pip install -r requirements.txt`.
-5. In VS Code: Ctrl+Shift+P, "Python: Select Interpreter", scegliere quello in `.venv`.
-6. Se il push dà 403: applicare la procedura della sezione 5.
-
-## 7. Regole per commit e file
+## 5. Regole per commit e file
 
 - Messaggi di commit brevi, in italiano, in prima persona dell'autore, ad esempio
-  "Aggiungo esercizi su liste e cicli". Nessun trailer di co-autore.
-- Niente riferimenti a strumenti usati per studiare in README, descrizione del repo,
-  commenti nel codice o messaggi di commit.
+  "Aggiungo esercizi su liste e cicli".
 - Prima di ogni push: `git status`, controllare che `.venv/` e i dati pesanti non siano inclusi.
 - Prima di iniziare a lavorare: `git pull`. A fine sessione: `git add`, `git commit`, `git push`.
 
-## 8. Stato di avanzamento
+## 6. Stato di avanzamento
 
 Legenda: [x] fatto, [ ] da fare.
 
-**Setup**
-- [x] Cartella del progetto creata in `Documents\Progetti-personali\ml-corso`
-- [x] Python 3.12.10 e Git installati sul PC aziendale
-- [x] Repository GitHub creato e collegato (`origin`)
-- [x] Identità Git personale impostata in locale
-- [x] Primo push riuscito
-- [x] Ambiente virtuale `.venv` creato sul PC aziendale
-- [x] Estensione Python di VS Code installata e interprete `.venv` selezionato
-
-**Moduli**
 - [x] Modulo 0 — completato: `01_ciao.py` (print), `02_input.py` (input e variabili), `03_eta.py` (int e f-string), `04_calcolatrice.py` (float, operatori, ZeroDivisionError visto)
 - [ ] Modulo 1 — in corso. File creato: `modulo1/01_condizioni.py` (if/elif/else), da svolgere
 - [ ] Modulo 2
@@ -142,5 +103,5 @@ Legenda: [x] fatto, [ ] da fare.
 - [ ] Modulo 5
 - [ ] Modulo 6
 
-**Ultima sessione: 2026-11-17.** Completato il Modulo 0. **Prossimo passo:** Modulo 1, primo esercizio `modulo1/01_condizioni.py`:
-`if/elif/else` e confronti (es. dire se un numero e' positivo, negativo o zero).
+**Ultima sessione: 2026-11-17.** Completato il Modulo 0. **Prossimo passo:** Modulo 1, primo esercizio
+`modulo1/01_condizioni.py`: `if/elif/else` e confronti (es. dire se un numero e' positivo, negativo o zero).
