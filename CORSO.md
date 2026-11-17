@@ -13,8 +13,7 @@ Si aggiorna alla fine di ogni sessione (sezione 8).
   dell'addestramento di reti neurali.
 - Arrivare a un **primo progetto completo** (classificatore di cifre scritte a mano, MNIST,
   oppure un progetto su dati scelti da me).
-- Livello di partenza: nessuna esperienza in ML. Esperienza di programmazione e livello di
-  matematica **non ancora verificati** (vedi sezione 9). Non dare nulla per scontato:
+- Livello di partenza: nessuna esperienza in ML. Non dare nulla per scontato:
   spiegare ogni termine alla prima occorrenza.
 - Lingua: **italiano**. Spiegazioni brevi, concrete, con esempio di codice.
 
@@ -92,7 +91,6 @@ ml-corso/
 - **PC aziendale (Windows 11, PowerShell):** Python 3.12.10 e Git installati con `winget`
   per il solo utente. Progetto in `C:\Users\amazzotti\Documents\Progetti-personali\ml-corso`.
   Ambiente virtuale creato in `.venv`.
-- **PC di casa:** non ancora configurato.
 - **Identità Git:** impostata **solo a livello di repository** (mai `--global`), con nome
   `amazzotti` e l'email personale. Verifica: `git config user.name` e `git config user.email`
   dentro la cartella del progetto. Sul PC aziendale la configurazione globale usa credenziali
@@ -134,11 +132,10 @@ Legenda: [x] fatto, [ ] da fare.
 - [x] Primo push riuscito
 - [x] Ambiente virtuale `.venv` creato sul PC aziendale
 - [x] Estensione Python di VS Code installata e interprete `.venv` selezionato
-- [ ] Setup sul PC di casa
 
 **Moduli**
 - [x] Modulo 0 — completato: `01_ciao.py` (print), `02_input.py` (input e variabili), `03_eta.py` (int e f-string), `04_calcolatrice.py` (float, operatori, ZeroDivisionError visto)
-- [ ] Modulo 1
+- [ ] Modulo 1 — in corso. File creato: `modulo1/01_condizioni.py` (if/elif/else), da svolgere
 - [ ] Modulo 2
 - [ ] Modulo 3
 - [ ] Modulo 4
@@ -146,12 +143,4 @@ Legenda: [x] fatto, [ ] da fare.
 - [ ] Modulo 6
 
 **Ultima sessione: 2026-11-17.** Completato il Modulo 0. **Prossimo passo:** Modulo 1, primo esercizio `modulo1/01_condizioni.py`:
-`if/elif/else` e confronti (es. dire se un numero e' positivo, negativo o zero). Vecchio prossimo passo, già svolto: selezionare l'interprete
-`.venv` in VS Code e scrivere `modulo0/01_ciao.py` (una riga con `print`), eseguirlo e
-descrivere cosa appare nel terminale.
-
-## 9. Domande aperte
-
-- Ho già scritto codice in passato (anche solo Excel/VBA)? Risposta non ancora registrata.
-- Quanta matematica ricordo (derivate, matrici, probabilità)? Risposta non ancora registrata.
-- Progetto finale: MNIST oppure dati miei? Da decidere prima del Modulo 6.
+`if/elif/else` e confronti (es. dire se un numero e' positivo, negativo o zero).
