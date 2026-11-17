@@ -39,3 +39,12 @@ Bonus (facoltativo):
 Scrivi il tuo codice qui sotto.
 """
 
+voti = []    
+for i in range(5):
+    voto = float(input(f"Inserisci il voto {i + 1}: "))
+    voti.append(voto)
+media = sum(voti) / len(voti)
+print (f"Voti: {voti}")
+print (f"Massimo: {max(voti)}")
+print (f"Minimo: {min(voti)}")
+print (f"Media: {media}")     
