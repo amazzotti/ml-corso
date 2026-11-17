@@ -36,3 +36,16 @@ cosa succede? (Ci torneremo con try/except.)
 Scrivi il tuo codice qui sotto.
 """
 
+numero = float(input("Inserisci un numero: "))
+if numero > 0:
+    print(f"{numero} e' positivo")
+elif numero < 0:
+    print(f"{numero} e' negativo")
+else:
+    print(f"{numero} e' zero")
+
+eta = int(input("Inserisci età: "))
+if eta >= 18:
+    print("maggiorenne")
+else:
+    print("minorenne")

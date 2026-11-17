@@ -96,12 +96,12 @@ ml-corso/
 Legenda: [x] fatto, [ ] da fare.
 
 - [x] Modulo 0 — completato: `01_ciao.py` (print), `02_input.py` (input e variabili), `03_eta.py` (int e f-string), `04_calcolatrice.py` (float, operatori, ZeroDivisionError visto)
-- [ ] Modulo 1 — in corso. File creato: `modulo1/01_condizioni.py` (if/elif/else), da svolgere
+- [ ] Modulo 1 — in corso. Fatto: `01_condizioni.py` (if/elif/else, confronti). Da svolgere: `02_cicli.py` (for e range)
 - [ ] Modulo 2
 - [ ] Modulo 3
 - [ ] Modulo 4
 - [ ] Modulo 5
 - [ ] Modulo 6
 
-**Ultima sessione: 2026-11-17.** Completato il Modulo 0. **Prossimo passo:** Modulo 1, primo esercizio
-`modulo1/01_condizioni.py`: `if/elif/else` e confronti (es. dire se un numero e' positivo, negativo o zero).
+**Ultima sessione: 2026-11-17.** Completato il Modulo 0 e il primo esercizio del Modulo 1. **Prossimo passo:**
+`modulo1/02_cicli.py`: ciclo `for` con `range` (tabellina di un numero).
