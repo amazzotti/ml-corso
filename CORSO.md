@@ -91,6 +91,21 @@ ml-corso/
 - Prima di ogni push: `git status`, controllare che `.venv/` e i dati pesanti non siano inclusi.
 - Prima di iniziare a lavorare: `git pull`. A fine sessione: `git add`, `git commit`, `git push`.
 
+## 5b. Teoria
+
+Gli appunti di teoria sono in file separati nella cartella `teoria/`, uno per argomento,
+così si rileggono senza passare dal piano. Ogni file di teoria si scrive **quando si arriva**
+all'argomento, in modo che corrisponda a ciò che è stato visto negli esercizi.
+
+- [x] `teoria/01_python_base.md` — variabili, tipi, `input`, f-string, operatori, condizioni,
+  cicli, liste, dizionari, lettura degli errori (Moduli 0 e 1).
+- [ ] `teoria/02_python_avanzato.md` — funzioni, file, `try/except`, moduli (fine Modulo 1).
+- [ ] `teoria/03_numpy_pandas.md` — array, vettori, matrici, tabelle, grafici (Modulo 2).
+- [ ] `teoria/04_regressione_gradient_descent.md` — campione, feature, etichetta, modello,
+  perdita, gradiente, learning rate, addestramento (Modulo 3).
+- [ ] `teoria/05_ml_classico.md` — train/test, overfitting, classificazione, metriche (Modulo 4).
+- [ ] `teoria/06_reti_neurali.md` — neurone, attivazioni, backpropagation, epoche, batch (Modulo 5).
+
 ## 6. Stato di avanzamento
 
 Legenda: [x] fatto, [ ] da fare. Il dettaglio di ogni esercizio è nella sezione 7.
