@@ -30,3 +30,12 @@ Bonus (facoltativo):
 Scrivi il tuo codice qui sotto.
 """
 
+n = int(input("Inserisci un numero: "))
+totale = 0
+range_limit = int(input("Fino a quale numero vuoi arrivare? (default 10): ") or 10)
+for i in range(1, range_limit + 1):
+  print(f"{n} x {i} = {n * i}")
+
+for i in range(1, 101):
+  totale = totale + i
+print(f"La somma dei numeri da 1 a 100 e': {totale}")
