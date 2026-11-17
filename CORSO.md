@@ -26,7 +26,9 @@ Si aggiorna alla fine di ogni sessione (sezione 8).
    poi, solo se serve, la soluzione commentata.
 4. La teoria (derivate, probabilità, gradiente, funzione di perdita) entra **quando serve**,
    sempre accanto a codice che la usa. Non serve matematica avanzata.
-5. Ogni esercizio è un file numerato nella cartella del modulo, per esempio
+5. Ogni esercizio è un file **già creato** da chi guida, con la descrizione in testa (obiettivo,
+   concetti nuovi, suggerimento) in modo che io lo legga direttamente da VS Code; il codice lo
+   scrivo io sotto la descrizione. Il file è numerato nella cartella del modulo, per esempio
    `modulo1/03_liste.py`. Ogni file inizia con un commento che dice cosa dimostra.
 6. A fine sessione: commit, push, e aggiornamento della sezione 8.
 
@@ -135,7 +137,7 @@ Legenda: [x] fatto, [ ] da fare.
 - [ ] Setup sul PC di casa
 
 **Moduli**
-- [ ] Modulo 0 — in corso. Fatti: `01_ciao.py` (print), `02_input.py` (input e variabili). Da fare: fine modulo (esercizio con piu' variabili)
+- [ ] Modulo 0 — in corso. Fatti: `01_ciao.py` (print), `02_input.py` (input e variabili), `03_eta.py` (int e f-string). Da fare: esercizio di fine modulo
 - [ ] Modulo 1
 - [ ] Modulo 2
 - [ ] Modulo 3
@@ -143,8 +145,8 @@ Legenda: [x] fatto, [ ] da fare.
 - [ ] Modulo 5
 - [ ] Modulo 6
 
-**Ultima sessione: 2026-11-17.** Fatti setup e i due esercizi del Modulo 0. **Prossimo passo:** `modulo0/03_eta.py`,
-chiedere nome ed eta' e stampare quanti anni si avranno tra 10 anni (introduce `int()` e operazioni). Vecchio prossimo passo, già svolto: selezionare l'interprete
+**Ultima sessione: 2026-11-17.** Fatti setup e i tre esercizi del Modulo 0. **Prossimo passo:** `modulo0/04_calcolatrice.py`,
+chiedere due numeri e stampare somma, differenza, prodotto e divisione (consolida `int()`/`float()` e operatori). Vecchio prossimo passo, già svolto: selezionare l'interprete
 `.venv` in VS Code e scrivere `modulo0/01_ciao.py` (una riga con `print`), eseguirlo e
 descrivere cosa appare nel terminale.
 
