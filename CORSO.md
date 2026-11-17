@@ -137,7 +137,7 @@ Legenda: [x] fatto, [ ] da fare.
 - [ ] Setup sul PC di casa
 
 **Moduli**
-- [ ] Modulo 0 — in corso. Fatti: `01_ciao.py` (print), `02_input.py` (input e variabili), `03_eta.py` (int e f-string). Da fare: esercizio di fine modulo
+- [x] Modulo 0 — completato: `01_ciao.py` (print), `02_input.py` (input e variabili), `03_eta.py` (int e f-string), `04_calcolatrice.py` (float, operatori, ZeroDivisionError visto)
 - [ ] Modulo 1
 - [ ] Modulo 2
 - [ ] Modulo 3
@@ -145,8 +145,8 @@ Legenda: [x] fatto, [ ] da fare.
 - [ ] Modulo 5
 - [ ] Modulo 6
 
-**Ultima sessione: 2026-11-17.** Fatti setup e i tre esercizi del Modulo 0. **Prossimo passo:** `modulo0/04_calcolatrice.py`,
-chiedere due numeri e stampare somma, differenza, prodotto e divisione (consolida `int()`/`float()` e operatori). Vecchio prossimo passo, già svolto: selezionare l'interprete
+**Ultima sessione: 2026-11-17.** Completato il Modulo 0. **Prossimo passo:** Modulo 1, primo esercizio `modulo1/01_condizioni.py`:
+`if/elif/else` e confronti (es. dire se un numero e' positivo, negativo o zero). Vecchio prossimo passo, già svolto: selezionare l'interprete
 `.venv` in VS Code e scrivere `modulo0/01_ciao.py` (una riga con `print`), eseguirlo e
 descrivere cosa appare nel terminale.
 
