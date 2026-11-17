@@ -135,7 +135,7 @@ Legenda: [x] fatto, [ ] da fare.
 - [ ] Setup sul PC di casa
 
 **Moduli**
-- [ ] Modulo 0 — in corso. Fatto: `01_ciao.py` (print). Da fare: `02_input.py`
+- [ ] Modulo 0 — in corso. Fatti: `01_ciao.py` (print), `02_input.py` (input e variabili). Da fare: fine modulo (esercizio con piu' variabili)
 - [ ] Modulo 1
 - [ ] Modulo 2
 - [ ] Modulo 3
@@ -143,8 +143,8 @@ Legenda: [x] fatto, [ ] da fare.
 - [ ] Modulo 5
 - [ ] Modulo 6
 
-**Ultima sessione: 2026-11-17.** Fatto il setup e il primo esercizio. **Prossimo passo:** `modulo0/02_input.py`,
-chiedere il nome con `input()` e salutare (introduce variabili e stringhe). Vecchio prossimo passo, già svolto: selezionare l'interprete
+**Ultima sessione: 2026-11-17.** Fatti setup e i due esercizi del Modulo 0. **Prossimo passo:** `modulo0/03_eta.py`,
+chiedere nome ed eta' e stampare quanti anni si avranno tra 10 anni (introduce `int()` e operazioni). Vecchio prossimo passo, già svolto: selezionare l'interprete
 `.venv` in VS Code e scrivere `modulo0/01_ciao.py` (una riga con `print`), eseguirlo e
 descrivere cosa appare nel terminale.
 
