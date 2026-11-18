@@ -17,3 +17,10 @@ data/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# File generati dagli esercizi
+grafici/
+modulo1/voti.txt
+modulo1/registro.json
+modulo4/risultati_confronto.csv
+modulo6/risultati_esperimenti.csv
