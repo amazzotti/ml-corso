@@ -99,12 +99,12 @@ all'argomento, in modo che corrisponda a ciò che è stato visto negli esercizi.
 
 - [x] `teoria/01_python_base.md` — variabili, tipi, `input`, f-string, operatori, condizioni,
   cicli, liste, dizionari, lettura degli errori (Moduli 0 e 1).
-- [ ] `teoria/02_python_avanzato.md` — funzioni, file, `try/except`, moduli (fine Modulo 1).
-- [ ] `teoria/03_numpy_pandas.md` — array, vettori, matrici, tabelle, grafici (Modulo 2).
-- [ ] `teoria/04_regressione_gradient_descent.md` — campione, feature, etichetta, modello,
+- [x] `teoria/02_python_avanzato.md` — funzioni, file, `try/except`, moduli (fine Modulo 1).
+- [x] `teoria/03_numpy_pandas.md` — array, vettori, matrici, tabelle, grafici (Modulo 2).
+- [x] `teoria/04_regressione_gradient_descent.md` — campione, feature, etichetta, modello,
   perdita, gradiente, learning rate, addestramento (Modulo 3).
-- [ ] `teoria/05_ml_classico.md` — train/test, overfitting, classificazione, metriche (Modulo 4).
-- [ ] `teoria/06_reti_neurali.md` — neurone, attivazioni, backpropagation, epoche, batch (Modulo 5).
+- [x] `teoria/05_ml_classico.md` — train/test, overfitting, classificazione, metriche (Modulo 4).
+- [x] `teoria/06_reti_neurali.md` — neurone, attivazioni, backpropagation, epoche, batch (Modulo 5).
 
 ## 6. Stato di avanzamento
 
@@ -125,7 +125,12 @@ Legenda: [x] fatto, [ ] da fare. Il dettaglio di ogni esercizio è nella sezione
 
 Per ogni esercizio: file, obiettivo, concetti nuovi ed eventuali note emerse durante lo
 svolgimento. Gli esercizi segnati [x] sono già svolti e pubblicati; gli altri sono il piano
-e possono essere adattati man mano. Ogni file ha già in testa la propria descrizione.
+e possono essere adattati man mano. **Tutti i file degli esercizi sono già creati** (Moduli 1-6), ciascuno con in testa:
+obiettivo, passi, risultati attesi verificati, concetti nuovi, istruzioni per controllare da soli il risultato (ssert),
+errori tipici e bonus facoltativi. Non serve altro per svolgerli: si leggono da VS Code e si scrive il codice sotto la descrizione.
+
+Librerie da installare quando servono (con .venv attivo):
+- Modulo 2: `pip install numpy pandas matplotlib`  - Modulo 4: `pip install scikit-learn`  - Moduli 5-6: `pip install torch torchvision`
 
 ### Modulo 0 — Primi passi (completato)
 
@@ -294,3 +299,4 @@ modello, parametri, funzione di perdita, gradiente, learning rate.
   dropout; confronto dei risultati.
 - [ ] `modulo6/06_relazione.md` — **Relazione finale.** Descrizione del progetto, risultati,
   grafici e cosa è stato imparato.
+
