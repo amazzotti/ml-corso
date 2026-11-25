@@ -61,4 +61,46 @@ BONUS (facoltativo)
 
 Scrivi il tuo codice qui sotto.
 """
+def media(numeri):
+    return sum(numeri) / len(numeri)
 
+def e_pari(n):
+    return n % 2 == 0
+
+def massimo_di_tre(a, b, c):
+    if a >= b and a >= c:
+        return a
+    elif b >= a and b >= c:
+        return b
+    else:
+        return c
+
+def saluta(nome, saluto="Ciao"):
+    return f"{saluto}, {nome}!"
+
+assert media([6, 8, 7]) == 7
+assert media([10]) == 10
+assert e_pari(4) is True
+assert e_pari(7) is False
+assert e_pari(0) is True
+assert massimo_di_tre(3, 9, 5) == 9
+assert massimo_di_tre(9, 3, 5) == 9
+assert massimo_di_tre(5, 3, 9) == 9
+assert massimo_di_tre(4, 4, 4) == 4
+assert saluta("Anna") == "Ciao, Anna!"
+assert saluta("Anna", "Buongiorno") == "Buongiorno, Anna!"
+print("Tutti i controlli superati")
+
+voti = []
+
+def stampa_risultati(voti):
+    print(f"Voti: {voti}")
+    print(f"Massimo: {max(voti)}")
+    print(f"Minimo: {min(voti)}")
+    print(f"Media: {media(voti)}")
+
+for i in range(5):
+    voto = float(input(f"Inserisci il voto {i + 1}: "))
+    voti.append(voto)
+
+stampa_risultati(voti)

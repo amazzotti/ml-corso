@@ -111,15 +111,15 @@ all'argomento, in modo che corrisponda a ciò che è stato visto negli esercizi.
 Legenda: [x] fatto, [ ] da fare. Il dettaglio di ogni esercizio è nella sezione 7.
 
 - [x] Modulo 0 — completato (4 esercizi)
-- [ ] Modulo 1 — in corso (4 esercizi su 12 fatti; il 5° è pronto da svolgere)
+- [ ] Modulo 1 — in corso (5 esercizi su 12 fatti; il 6° è pronto da svolgere)
 - [ ] Modulo 2
 - [ ] Modulo 3
 - [ ] Modulo 4
 - [ ] Modulo 5
 - [ ] Modulo 6
 
-**Ultima sessione: 2026-11-25.** **Prossimo passo:** `modulo1/05_funzioni.py`
-(funzioni: `def`, parametri, `return`, controllo con `assert`).
+**Ultima sessione: 2026-11-25.** **Prossimo passo:** `modulo1/06_while_indovina.py`
+(ciclo `while`, `break`, modulo `random`: indovina il numero).
 
 ## 7. Catalogo degli esercizi
 
@@ -171,7 +171,7 @@ Librerie da installare quando servono (con .venv attivo):
   `in`), aggiungere un contatto, stampare tutta la rubrica. Concetti: dizionario `{chiave: valore}`,
   lettura per chiave, `in`, `.items()`, `KeyError`, numero di telefono come testo (zero iniziale).
   Extra: `.get("Nome", "non trovato")` e `len(rubrica)`.
-- [ ] `modulo1/05_funzioni.py` — **Funzioni.**
+- [x] `modulo1/05_funzioni.py` — **Funzioni.**
   Obiettivo: scrivere funzioni `media(lista)`, `e_pari(n)`, `massimo_di_tre(a, b, c)` e
   riscrivere l'esercizio dei voti usando le funzioni. Concetti: `def`, parametri, `return`,
   differenza tra stampare e restituire un valore, riuso del codice.
@@ -299,5 +299,6 @@ modello, parametri, funzione di perdita, gradiente, learning rate.
   dropout; confronto dei risultati.
 - [ ] `modulo6/06_relazione.md` — **Relazione finale.** Descrizione del progetto, risultati,
   grafici e cosa è stato imparato.
+
 
 
