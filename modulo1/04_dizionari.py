@@ -46,3 +46,17 @@ Bonus (facoltativo):
 Scrivi il tuo codice qui sotto.
 """
 
+rubrica = {"Anna": "333111222", "Marco": "347000111", "Ale": "320222333"}
+nome = input("Che nome cerchi? ")
+if nome in rubrica:
+      print(nome, rubrica[nome])
+else:
+      print("Contatto non esistente")
+print("Nome del nuovo contatto: ")
+nuovo_nome = input()
+print("Numero: ")
+nuovo_numero = input()
+rubrica[nuovo_nome] = nuovo_numero
+print("Rubrica completa:")
+for nome, numero in rubrica.items():
+      print(nome, numero)

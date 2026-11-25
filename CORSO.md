@@ -111,15 +111,15 @@ all'argomento, in modo che corrisponda a ciò che è stato visto negli esercizi.
 Legenda: [x] fatto, [ ] da fare. Il dettaglio di ogni esercizio è nella sezione 7.
 
 - [x] Modulo 0 — completato (4 esercizi)
-- [ ] Modulo 1 — in corso (3 esercizi su 12 fatti; il 4° è pronto da svolgere)
+- [ ] Modulo 1 — in corso (4 esercizi su 12 fatti; il 5° è pronto da svolgere)
 - [ ] Modulo 2
 - [ ] Modulo 3
 - [ ] Modulo 4
 - [ ] Modulo 5
 - [ ] Modulo 6
 
-**Ultima sessione: 2026-11-17.** **Prossimo passo:** `modulo1/04_dizionari.py`
-(dizionari, chiavi e valori, `in`, `.items()`: una rubrica).
+**Ultima sessione: 2026-11-25.** **Prossimo passo:** `modulo1/05_funzioni.py`
+(funzioni: `def`, parametri, `return`, controllo con `assert`).
 
 ## 7. Catalogo degli esercizi
 
@@ -166,7 +166,7 @@ Librerie da installare quando servono (con .venv attivo):
   Concetti: lista (`[]`), `append`, indici che partono da 0, `len`, `max`, `min`, `sum`,
   media = `sum / len`. Errore incontrato e corretto: `range(6)` ripete 6 volte, non 5;
   per N giri si scrive `range(N)`.
-- [ ] `modulo1/04_dizionari.py` — **Rubrica (file già creato, da svolgere).**
+- [x] `modulo1/04_dizionari.py` — **Rubrica.**
   Obiettivo: rubrica nome → numero con 3 contatti iniziali; cercare un nome (controllando con
   `in`), aggiungere un contatto, stampare tutta la rubrica. Concetti: dizionario `{chiave: valore}`,
   lettura per chiave, `in`, `.items()`, `KeyError`, numero di telefono come testo (zero iniziale).
@@ -299,4 +299,5 @@ modello, parametri, funzione di perdita, gradiente, learning rate.
   dropout; confronto dei risultati.
 - [ ] `modulo6/06_relazione.md` — **Relazione finale.** Descrizione del progetto, risultati,
   grafici e cosa è stato imparato.
+
 
