@@ -60,3 +60,16 @@ BONUS (facoltativo)
 Scrivi il tuo codice qui sotto.
 """
 
+import random
+segreto = random.randint(1, 100)
+tentativi = 0
+while True:
+    numero = int(input("Indovina il numero tra 1 e 100: "))
+    tentativi += 1
+    if numero == segreto:
+        print(f"Bravo! Hai indovinato in {tentativi} tentativi.")
+        break
+    elif numero > segreto:
+        print("Troppo alto!")
+    else:
+        print("Troppo basso!")  
