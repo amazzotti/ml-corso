@@ -78,3 +78,39 @@ BONUS (facoltativo)
 Scrivi il tuo codice qui sotto.
 """
 
+def leggi_intero(messaggio):
+    while True:
+        testo = input(messaggio)
+        try:
+            return int(testo)       # return esce da funzione e ciclo
+        except ValueError:
+            print("Inserisci un numero intero.")
+
+
+def leggi_intero_positivo(messaggio):
+    while True:
+        n = leggi_intero(messaggio)
+        if n > 0:
+            return n
+        print("Il numero deve essere positivo.")
+
+
+def dividi(a, b):
+    if b == 0:
+        print("Divisione per zero non possibile")
+        return None
+    return a / b
+
+
+def leggi_file(nome):
+    try:
+        with open(nome, "r", encoding="utf-8") as f:
+            return f.read()
+    except FileNotFoundError:
+        print("File non trovato")
+        return ""
+
+
+assert dividi(10, 2) == 5
+assert dividi(1, 0) is None
+assert leggi_file("file_che_non_esiste.txt") == ""

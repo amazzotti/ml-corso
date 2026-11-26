@@ -111,15 +111,15 @@ all'argomento, in modo che corrisponda a ciò che è stato visto negli esercizi.
 Legenda: [x] fatto, [ ] da fare. Il dettaglio di ogni esercizio è nella sezione 7.
 
 - [x] Modulo 0 — completato (4 esercizi)
-- [ ] Modulo 1 — in corso (9 esercizi su 12 fatti; il 10° è pronto da svolgere)
+- [ ] Modulo 1 — in corso (10 esercizi su 12 fatti; l'11° è pronto da svolgere)
 - [ ] Modulo 2
 - [ ] Modulo 3
 - [ ] Modulo 4
 - [ ] Modulo 5
 - [ ] Modulo 6
 
-**Ultima sessione: 2026-11-25.** **Prossimo passo:** `modulo1/10_errori.py`
-(`try/except`: gestire input non validi e file mancanti).
+**Ultima sessione: 2026-11-25.** **Prossimo passo:** `modulo1/11_convertitore.py`
+(funzioni di calcolo, menu in un ciclo, dizionario di funzioni: convertitore di unità).
 
 ## 7. Catalogo degli esercizi
 
@@ -191,7 +191,7 @@ Librerie da installare quando servono (con .venv attivo):
   Obiettivo: salvare dei voti in un file di testo, poi rileggerli e calcolare la media.
   Concetti: `open`, istruzione `with`, modalità `"w"`, `"a"`, `"r"`, `readlines`, percorsi
   relativi (nessun percorso assoluto nel codice).
-- [ ] `modulo1/10_errori.py` — **Gestire gli errori.**
+- [x] `modulo1/10_errori.py` — **Gestire gli errori.**
   Obiettivo: chiedere un numero e ripetere la domanda finché l'input è valido; gestire la
   divisione per zero. Concetti: `try / except`, `ValueError`, `ZeroDivisionError`, ciclo
   `while True` con `break`.
