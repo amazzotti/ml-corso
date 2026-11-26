@@ -111,15 +111,15 @@ all'argomento, in modo che corrisponda a ciò che è stato visto negli esercizi.
 Legenda: [x] fatto, [ ] da fare. Il dettaglio di ogni esercizio è nella sezione 7.
 
 - [x] Modulo 0 — completato (4 esercizi)
-- [ ] Modulo 1 — in corso (6 esercizi su 12 fatti; il 7° è pronto da svolgere)
+- [ ] Modulo 1 — in corso (7 esercizi su 12 fatti; l'8° è pronto da svolgere)
 - [ ] Modulo 2
 - [ ] Modulo 3
 - [ ] Modulo 4
 - [ ] Modulo 5
 - [ ] Modulo 6
 
-**Ultima sessione: 2026-11-25.** **Prossimo passo:** `modulo1/07_fizzbuzz.py`
-(operatore `%`, ordine dei controlli `if/elif`: FizzBuzz).
+**Ultima sessione: 2026-11-25.** **Prossimo passo:** `modulo1/08_contaparole.py`
+(stringhe, dizionario come contatore, `sorted` con `key`: contatore di parole).
 
 ## 7. Catalogo degli esercizi
 
@@ -179,7 +179,7 @@ Librerie da installare quando servono (con .venv attivo):
   Obiettivo: il programma sceglie un numero casuale tra 1 e 100; si prova finché si indovina,
   con indizi "più alto/più basso" e conteggio dei tentativi. Concetti: ciclo `while`,
   `break`, modulo `random` (`import`), confronti.
-- [ ] `modulo1/07_fizzbuzz.py` — **FizzBuzz.**
+- [x] `modulo1/07_fizzbuzz.py` — **FizzBuzz.**
   Obiettivo: per i numeri da 1 a 100 stampare "Fizz" se multiplo di 3, "Buzz" se di 5,
   "FizzBuzz" se di entrambi, altrimenti il numero. Concetti: operatore `%`, ordine dei
   controlli in `if/elif`, condizioni combinate con `and`.
@@ -299,6 +299,7 @@ modello, parametri, funzione di perdita, gradiente, learning rate.
   dropout; confronto dei risultati.
 - [ ] `modulo6/06_relazione.md` — **Relazione finale.** Descrizione del progetto, risultati,
   grafici e cosa è stato imparato.
+
 
 
 
