@@ -10,7 +10,7 @@ TESTO DI PROVA
     testo = "Il gatto e il cane e il topo. Il gatto dorme, il cane no!"
 
 RISULTATO ATTESO (la parola e il numero di volte)
-    il: 4
+    il: 5
     gatto: 2
     cane: 2
     e: 2
@@ -62,4 +62,13 @@ BONUS (facoltativo)
 
 Scrivi il tuo codice qui sotto.
 """
-
+testo = "Il gatto e il cane e il topo. Il gatto dorme, il cane no!"
+testo = testo.lower()
+testo = testo.replace(".", "").replace(",", "").replace("!", "").replace("?", "")
+parole = testo.split()
+conteggi = {}
+for p in parole:
+    conteggi[p] = conteggi.get(p, 0) + 1
+ordinate = sorted(conteggi.items(), key=lambda coppia: coppia[1], reverse=True)
+for parola, conteggio in ordinate[:5]:
+    print(f"{parola}: {conteggio}")
