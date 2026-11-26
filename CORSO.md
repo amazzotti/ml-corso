@@ -111,15 +111,15 @@ all'argomento, in modo che corrisponda a ciò che è stato visto negli esercizi.
 Legenda: [x] fatto, [ ] da fare. Il dettaglio di ogni esercizio è nella sezione 7.
 
 - [x] Modulo 0 — completato (4 esercizi)
-- [ ] Modulo 1 — in corso (10 esercizi su 12 fatti; l'11° è pronto da svolgere)
+- [ ] Modulo 1 — in corso (11 esercizi su 12 fatti; il 12° è pronto da svolgere)
 - [ ] Modulo 2
 - [ ] Modulo 3
 - [ ] Modulo 4
 - [ ] Modulo 5
 - [ ] Modulo 6
 
-**Ultima sessione: 2026-11-25.** **Prossimo passo:** `modulo1/11_convertitore.py`
-(funzioni di calcolo, menu in un ciclo, dizionario di funzioni: convertitore di unità).
+**Ultima sessione: 2026-11-25.** **Prossimo passo:** `modulo1/12_riepilogo.py`
+(programma di fine modulo: registro voti con menu, dizionario, funzioni, file JSON, `try/except`).
 
 ## 7. Catalogo degli esercizi
 
@@ -195,7 +195,7 @@ Librerie da installare quando servono (con .venv attivo):
   Obiettivo: chiedere un numero e ripetere la domanda finché l'input è valido; gestire la
   divisione per zero. Concetti: `try / except`, `ValueError`, `ZeroDivisionError`, ciclo
   `while True` con `break`.
-- [ ] `modulo1/11_convertitore.py` — **Convertitore di unità con menu.**
+- [x] `modulo1/11_convertitore.py` — **Convertitore di unità con menu.**
   Obiettivo: menu per convertire km↔miglia, °C↔°F, kg↔libbre. Concetti: funzioni,
   dizionario di conversioni, menu in un ciclo, gestione dell'input errato.
 - [ ] `modulo1/12_riepilogo.py` — **Programma di fine modulo: registro voti.**
