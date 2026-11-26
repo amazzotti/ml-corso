@@ -1,4 +1,4 @@
-"""Esercizio 9 (Modulo 1) - Leggere e scrivere file.
+r"""Esercizio 9 (Modulo 1) - Leggere e scrivere file.
 
 Teoria: teoria/02_python_avanzato.md, sezione 7.
 
@@ -31,7 +31,7 @@ STRUTTURA SUGGERITA
     percorso = Path(__file__).parent / "voti.txt"
 
     with open(percorso, "w", encoding="utf-8") as f:
-        f.write(f"{voto}\\n")           # dentro il ciclo
+        f.write(f"{voto}\n")           # dentro il ciclo
 
     with open(percorso, "r", encoding="utf-8") as f:
         righe = f.readlines()
@@ -41,8 +41,8 @@ CONCETTI NUOVI
 - open(percorso, modo): modi "r" lettura, "w" scrittura (cancella il file),
   "a" aggiunta in fondo.
 - with ... as f: chiude il file da solo, anche se c'e' un errore.
-- write non va a capo: bisogna scrivere "\\n".
-- readlines() restituisce una lista di righe (con "\\n" finale).
+- write non va a capo: bisogna scrivere "\n".
+- readlines() restituisce una lista di righe (con "\n" finale).
 - Path(__file__).parent: la cartella dove si trova questo file; cosi' il
   programma funziona da qualunque cartella lo lanci e su qualsiasi PC.
 - Comprehension: [float(r.strip()) for r in righe] = ciclo che costruisce
@@ -57,11 +57,11 @@ COME VERIFICARE DA SOLO
   Osserva la differenza.
 
 ERRORI TIPICI
-- Dimenticare "\\n": tutti i voti finiscono sulla stessa riga ("68.57.59.0").
-- float("6.0\\n") funziona, ma e' bene usare strip() comunque; con una riga
+- Dimenticare "\n": tutti i voti finiscono sulla stessa riga ("68.57.59.0").
+- float("6.0\n") funziona, ma e' bene usare strip() comunque; con una riga
   vuota finale invece float("") da' ValueError.
 - Usare "w" quando si voleva aggiungere: il file viene svuotato.
-- Scrivere un percorso assoluto tipo C:\\Users\\... : non funzionerebbe su
+- Scrivere un percorso assoluto tipo C:\Users\... : non funzionerebbe su
   un altro PC. Usa Path(__file__).parent.
 - Lasciare il file voti.txt nel repository: e' un file generato, non va
   pubblicato (verra' ignorato).
@@ -75,4 +75,32 @@ BONUS (facoltativo)
 
 Scrivi il tuo codice qui sotto.
 """
+from pathlib import Path
+percorso = Path(__file__).parent / "voti.txt"
+voti = []
+for _ in range(4):
+    voto = float(input("Inserisci un voto: "))
+    voti.append(voto)
+
+with open(percorso, "w", encoding="utf-8") as f:
+    for voto in voti:
+        f.write(f"{voto}\n")
+
+with open(percorso, "r", encoding="utf-8") as f:
+  righe = f.readlines()
+voti = [float(r.strip()) for r in righe]
+print(f"Voti: {voti}")
+print(f"Media: {sum(voti) / len(voti)}")
+
+# Aggiungere un quinto voto senza cancellare gli altri.
+voto = float(input("Inserisci un quinto voto: "))
+
+with open(percorso, "a", encoding="utf-8") as f:
+    f.write(f"{voto}\n")
+
+with open(percorso, "r", encoding="utf-8") as f:
+    righe = f.readlines()
+voti = [float(r.strip()) for r in righe]
+print(f"Voti: {voti}")
+print(f"Media: {sum(voti) / len(voti)}")
 

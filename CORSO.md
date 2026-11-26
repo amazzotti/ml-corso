@@ -1,4 +1,4 @@
-﻿# Quaderno del corso di Machine Learning
+# Quaderno del corso di Machine Learning
 
 Documento di continuità: raccoglie obiettivo, metodo, piano completo e stato di avanzamento.
 Chi lo legge (io stesso, un tutor, un collega) deve poter capire
@@ -111,15 +111,15 @@ all'argomento, in modo che corrisponda a ciò che è stato visto negli esercizi.
 Legenda: [x] fatto, [ ] da fare. Il dettaglio di ogni esercizio è nella sezione 7.
 
 - [x] Modulo 0 — completato (4 esercizi)
-- [ ] Modulo 1 — in corso (8 esercizi su 12 fatti; il 9° è pronto da svolgere)
+- [ ] Modulo 1 — in corso (9 esercizi su 12 fatti; il 10° è pronto da svolgere)
 - [ ] Modulo 2
 - [ ] Modulo 3
 - [ ] Modulo 4
 - [ ] Modulo 5
 - [ ] Modulo 6
 
-**Ultima sessione: 2026-11-25.** **Prossimo passo:** `modulo1/09_file.py`
-(lettura e scrittura di file con `open`, `with`, `Path`: voti salvati su file).
+**Ultima sessione: 2026-11-25.** **Prossimo passo:** `modulo1/10_errori.py`
+(`try/except`: gestire input non validi e file mancanti).
 
 ## 7. Catalogo degli esercizi
 
@@ -187,7 +187,7 @@ Librerie da installare quando servono (con .venv attivo):
   Obiettivo: dato un testo, contare quante volte compare ogni parola e stampare le 5 più
   frequenti. Concetti: metodi delle stringhe (`lower`, `split`), dizionario come contatore,
   ordinamento con `sorted` e `key`.
-- [ ] `modulo1/09_file.py` — **Leggere e scrivere file.**
+- [x] `modulo1/09_file.py` — **Leggere e scrivere file.**
   Obiettivo: salvare dei voti in un file di testo, poi rileggerli e calcolare la media.
   Concetti: `open`, istruzione `with`, modalità `"w"`, `"a"`, `"r"`, `readlines`, percorsi
   relativi (nessun percorso assoluto nel codice).
